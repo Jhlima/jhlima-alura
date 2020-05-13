@@ -1,28 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body{
-    background-image: url(https://benditafaxina.com.br/wp-content/uploads/2017/08/webplunder-background-image-technology-online-website-solutions.jpg);
+    background-image: url(https://freefrontend.com/assets/img/css-animation-examples/CSS-Dot-Menu-Animations.gif);
     font-family: Arial;
     color: teal;
     background-repeat: no-repeat;
-  }
-  a{color:blue;
-    text-decoration: none ;
-    font-family: Arial;
+    background-size: cover;
   }
   a:hover {
-    text-decoration:underline;
+    font-weight: bold;
     }
-  h1{
-    color: teal;
-    text-align: center;
-  }
-  h2 {
-    text-align: center;
-  }
-  .menu ul {
-    text-align: center;
+  .menu ul{
+    font-size: 20px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-around; 
+    margin: 0px;
+  }
+  .menu{   
+    background-color: #26232d;
+    padding: 25px;
+     padding-left: 25px;
+     padding-top: 25px;
+     padding-right: 25px;
+     padding-bottom: 25px;
+    
   }
   .menu li {
     list-style: none;
   }
+  a {
+    text-decoration: none;
+  }
+  .all a {
+    color: whitesmoke;
+  }
+  .logo {
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .meio {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .titulo {
+    color: thistle;
+    text-align: center;
+  }
+  .sub-titulo {
+    color: white;
+    text-align: center;
+  }
+
